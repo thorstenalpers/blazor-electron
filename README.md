@@ -8,6 +8,9 @@
 PM> dotnet new blazorserver
 ```
 
+You could also use WASM, which uses WebAssembly and is a rich client application where all code is executed in the browser. However, the C# code will run slower compared to the server application. 
+On the other hand, the server application consists of two processes that use Electron.Net under the hood.
+
 https://learn.microsoft.com/en-us/aspnet/core/blazor/tooling?view=aspnetcore-8.0&pivots=windows
 
 
